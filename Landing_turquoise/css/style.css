@@ -1,20 +1,52 @@
-
+.navbar-collapse .navbar-nav li a,
+#myCarousel .carousel-caption h1,
+#myCarousel .carousel-caption p,
+.btn-style,
+#service h3,
+#service p,
+.btn-stl-2,
+#portfolio,
+#team,
+#blog,
+#myCarousel-2 h2,
+#myCarousel-2 p,
+#myCarousel-2 h4,
+#contact,
+form,
+#contact form button
+{
+    font-family: 'Open Sans', sans-serif; 
+}
+.navbar-collapse .navbar-nav li a,
+#myCarousel .carousel-caption p,
+#service p,
+.btn-stl-2,
+#myCarousel-2 h2,
+#myCarousel-2 p,
+#myCarousel-2 h4,
+#contact,
+#contact form button
+{
+    font-weight: 300;
+}
+/* HEADER */
+/* NAVBAR */
 .navbar-inverse {
-    background: none;
-    border-bottom: none;
     vertical-align: middle;
     padding-top: 25px;
+    border-bottom: none;
+    background: none;
 }
 .navbar-scroll {
-    background-color: rgba(128,128,128,0.2);
     height: 50px;
     padding-top: 0px;
+    background-color: rgba(128,128,128,.2);
 }
 .navbar-header .navbar-brand {
-    color: #44C0C2;
     font-family: 'Lobster Two', cursive;
     font-size: 30px;
     font-weight: bold;
+    color: #44C0C2;
 }
 .navbar-header .navbar-brand:hover {
     color: #1d8b8d;
@@ -22,25 +54,23 @@
 .navbar-collapse .navbar-nav li a {
     height: 100%;
     color: #60646c;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
 }
 .navbar-collapse .navbar-nav li a:hover {
     color: #44c0c2;
 }
-
 .navbar-inverse .navbar-nav>.active>a {
-	border-radius: 0;
-	color: #44c0c2;
-	background-color: #f8f9fb;
     border-bottom: 3px solid #49cbcd;
+    border-radius: 0;
+    color: #44c0c2;
+	background-color: #f8f9fb;
 }
-
 .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
 	color: #44c0c2;
 	background-color:#f8f9fb;
 }
+/*--------------------------------*/
 
+/* CAROUSEL */
 #myCarousel .carousel-caption {
     top: 20%;
 }
@@ -48,120 +78,114 @@
     min-height: 250px;
 }
 #myCarousel .carousel-caption h1 {
-    font-family: 'Open Sans', sans-serif;
     font-weight: 500;
     font-size: 72px;
     text-shadow: 0 1px 0 rgba(0,0,0,.2);
 }
 #myCarousel .carousel-caption p {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
+    max-width: 400px;
     font-size: 20px;
     text-shadow: none;
-    max-width: 400px;
 }
 #myCarousel .carousel-caption p:last-child {
     margin-top: 60px;
 }
-
-
 #myCarousel {
     margin-top: 100px;
 }
-
 #myCarousel .mask {
-  background-color: #49cbcd; /* Чёрный фон */
-  height: 100%; /* Высота максимальна */
-  left: 0; /* Нулевой отступ слева */
-  opacity: 0.60; /* Степень прозрачности */
-  position: absolute; /* Фиксированное положение */
-  top: 0; /* Нулевой отступ сверху */
-  width: 100%; /* Ширина максимальна */
-  z-index: 1; /* Заведомо быть НАД другими элементами */
+    position: absolute;
+    top: 0;
+    left: 0; 
+    z-index: 1;
+    width: 100%; 
+    height: 100%;  
+    background-color: #49cbcd; 
+    opacity: 0.60;
 }
-
 #myCarousel .fa-chevron-left {
-    color: #44C0C2;
-    text-shadow: none;
-    font-weight: 100;
-    background-color: #FFF;
     padding: 11px 17px 8px 12px;
     border-radius: 50%;
-}
-#myCarousel .fa-chevron-right {
+    font-weight: 100;
     color: #44C0C2;
     text-shadow: none;
-    font-weight: 100;
     background-color: #FFF;
+}
+#myCarousel .fa-chevron-right {
     padding: 11px 12px 8px 17px;
     border-radius: 50%;
+    color: #44C0C2;
+    font-weight: 100;
+    text-shadow: none;
+    background-color: #FFF;
 }
 .btn-style {
-    font-family: 'Open Sans', sans-serif;
-    border: 2px solid #fff;
     padding: 10px 30px;
+    border: 2px solid #fff;
     color: #fff;
 }
 .btn-style:hover {
     border: 2px solid #44C0C2;
     color: #44C0C2;
 }
+/*--------------------------------*/
+/*-------------------------------------------------------------------*/
+
+/* MAIN */
+/* SERVICE */
 #service {
-    text-align: center;
     margin-top: 100px;
     margin-bottom: 60px;
+    text-align: center;
 }
-
 .fa-style {
-    font-size: 40px;
     width: 100px;
     line-height: 100px;
+    border: 2px solid #44C0C2;
     border-radius: 50%;
     color: #44C0C2;
-    border: 2px solid #44C0C2;
+    font-size: 40px;
 }
 #service h3 {
     margin-top: 35px;
     color: #4E525D;
-    font-family: 'Open Sans', sans-serif;
     font-size: 22px;
 }
 #service p {
     max-width: 250px;
-    font-weight: 300;
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
     color: #4E525D;
-    font-family: 'Open Sans', sans-serif;
     font-size: 14px;
 }
 
 .btn-stl-2 {
-    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 40px;
     padding: 7px 20px;
-    color: #fff;
-    font-weight: 300;
-    background-color: #49CBCD;
-    font-size: 14px;
     border-radius: 5px;
-    margin-bottom: 40px;;
+    color: #fff;
+    font-size: 14px;
+    background-color: #49CBCD;
 }
 .btn-stl-2:hover {
-    background-color: #28898b;
     color: #fff;
+    background-color: #28898b;
 }
 .fa-desktop {
     font-size: 35px;
 }
+/*--------------------------------*/
+
+/* PORTFOLIO */
 #portfolio .row .thumbnail {
-    background-color: #F1F1F1;
-    border: none;
     padding-right: 0;
     padding-left: 0;
+    border: none;
+    background-color: #F1F1F1;
 }
 #portfolio .row {
     margin-left: 3%;
@@ -171,13 +195,10 @@
     
 }
 #portfolio {
-    font-family: 'Open Sans', sans-serif;
-    background-color: #F1F1F1;
     width: 100%;
     color: #4E525D;
+    background-color: #F1F1F1;
 }
-
-
 #portfolio h2 {
     margin-top: 40px;
     margin-bottom: 40px;
@@ -186,16 +207,15 @@
     margin-top: 25px;
     margin-bottom: 60px;
 }
+/*--------------------------------*/
 
-
-
-
+/* TEAM */
 #team .row div div {
+    margin-right: auto;
+    margin-left: auto;
     margin-bottom: 50px;
     width: 200px;
     height: 200px;
-    margin-right: auto;
-    margin-left: auto;
     border-radius: 50%;
 }
 #team .row div {
@@ -204,26 +224,24 @@
 #team .row div:nth-child(1) div {
     background: url("images/team-1.jpg") 50% 50% no-repeat;
     -webkit-background-size: 100%;
-    background-size: 100%;
-    
+            background-size: 100%;   
 }
 #team .row div:nth-child(2) div {
     background: url("images/team-2.jpg") 50% 0% no-repeat ;
     -webkit-background-size: 170%;
-    background-size: 170%;
+            background-size: 170%;
 }
 #team .row div:nth-child(3) div {
     background: url("images/team-3.jpg") 55% 10% no-repeat;
     -webkit-background-size: 100%;
-    background-size: 200%;
+            background-size: 200%;
 }
 #team .row div:nth-child(4) div {
     background: url("images/team-4.jpg") no-repeat 50% 0%;
     -webkit-background-size: 100%;
-    background-size: 150%;
+            background-size: 150%;
 }
 #team {
-    font-family: 'Open Sans', sans-serif;
     color: #4E525D;
     background: #fff;
 }
@@ -238,23 +256,23 @@
     margin-bottom: 100px;
 }
 #team p {
-    max-width: 270px;
     margin-right: auto;
     margin-left: auto;
+    max-width: 270px;
 }
+/*--------------------------------*/
 
-
+/* BLOG */
 .btn-stl-3 {
-    background-color: #788492;
     color: #fff;
+    background-color: #788492;
 }
 #blog {
+    width: 100%;
     padding-top: 100px;
     padding-bottom: 80px;
-    font-family: 'Open Sans', sans-serif;
-    background-color: #F1F1F1;
-    width: 100%;
     color: #8C9299;
+    background-color: #F1F1F1;
 }
 #blog .container .list-group {
     margin-bottom: 30px;
@@ -268,26 +286,26 @@
     line-height: 45px;
 }
 #blog [class^=col-]:nth-child(2n+1) .list-group-item:nth-child(1) {
-    background-color: #485460;
-    color: #fff;
-    font-size: 22px;
     line-height: 75px;
     border-bottom: none;
+    color: #fff;
+    font-size: 22px;
+    background-color: #485460;
 }
 #blog [class^=col-]:nth-child(2n+2) .list-group-item:nth-child(1) {
-    background-color: #49CBCD;
-    color: #fff;
-    font-size: 22px;
     line-height: 75px;
     border-bottom: none;
+    color: #fff;
+    font-size: 22px;
+    background-color: #49CBCD;
 }
 #blog .list-group-item:last-child {
     line-height: 100px;
     background-color: #F8F9FB;
 }
 #blog .list-group-item:nth-child(2) {
-    border-top: none;
     line-height: 69px;
+    border-top: none;
     background-color: #F8F9FB;
 }
 #blog p {
@@ -295,21 +313,24 @@
     padding: 0;
 }
 #blog [class^=col-]:nth-child(2n+1) .btn-stl-3 {
-    background-color: #788492;
     width: 150px;
+    background-color: #788492;
 }
 #blog [class^=col-]:nth-child(2n+1) .btn-stl-3:hover {
-    background-color: #3b424a;
     color: #fff;
+    background-color: #3b424a;
 }
 #blog [class^=col-]:nth-child(2n+2) .btn-stl-3 {
-    background-color: #49CBCD;
     width: 150px;
+    background-color: #49CBCD;
 }
 #blog [class^=col-]:nth-child(2n+2) .btn-stl-3:hover {
-    background-color: #28898b;
     color: #fff;
+    background-color: #28898b;
 }
+/*--------------------------------*/
+
+/* REVIEWS */
 #myCarousel-2 .carousel-inner .item {
     height: auto;
 }
@@ -318,84 +339,82 @@
 }
 #myCarousel-2 h2 {
     margin-top: 150px;
-    font-size: 42px;
     color: #4E525D;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
+    font-size: 42px;
     text-shadow: none;  
 }
 #myCarousel-2 p {
     margin-top: 48px;
-    font-size: 19px;
-    color: #4E525D;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
-    text-shadow: none;
-    width: 90%;
     margin-left: auto;
     margin-right: auto;
+    width: 90%;
+    color: #4E525D;
+    font-size: 19px;
+    text-shadow: none;
+   
 }
 #myCarousel-2 h4 {
     margin-bottom: 100px;
     margin-top: 45px;
-    font-size: 21px;
     color: #9A8FAF;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
+    font-size: 21px;
     text-shadow: none;  
 }
 #myCarousel-2 .fa-chevron-left {
     color: #8C8C8C;
-    text-shadow: none;
     font-weight: 100;
+    text-shadow: none;
 }
 #myCarousel-2 .fa-chevron-right {
     color: #8C8C8C;
-    text-shadow: none;
     font-weight: 100;
+    text-shadow: none;
 }
+/*--------------------------------*/
+/*-------------------------------------------------------------------*/
+
+/* FOOTER */
+/* CONTACT */
 #contact {
     background: #000 url("images/footer.jpg") 50% 50% no-repeat;
     -webkit-background-size: cover;
-    background-size: cover;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
+            background-size: cover;
 }
 #contact .container .row {
     margin-bottom: 100px;
 }
 #contact h2 {
+    margin-top: 112px;
+    text-align: center;
     color: #fff;
     font-size: 42px;
     text-shadow: none;
-    margin-top: 112px;
-    text-align: center;
 }
 #contact h3 {
     margin-top: 70px;
-    font-size: 23px;
     color: #fff;
+    font-size: 23px;
 }
 #contact p {
-    font-size: 14px;
-    color: #808080;
-    width: 80%;
     margin-bottom: 0;
+    width: 80%;
+    color: #808080;
+    font-size: 14px;
 }
 #contact .social-buttons li {
-    width: 40px;
-    line-height: 40px;
-    text-align: center;
-    border-radius: 50%;
-    -webkit-transition: ;
-    -o-transition: ;
-    transition: all 0.3s ease;
     margin-top: 40px;
     margin-bottom: 23px;
+    text-align: center;
+    width: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    -webkit-transition: all 0.3s ease;
+         -o-transition: all 0.3s ease;
+            transition: all 0.3s ease;
 }
 .social-buttons li:nth-child(1)  {
-    background-color: #3B5997;
     margin-right: 15px;
+    background-color: #3B5997;
 }
 #contact .social-buttons li a {
     color: #fff;
@@ -403,30 +422,28 @@
 #contact .social-buttons li:hover {
     cursor: pointer;
     opacity: .5;
-    -webkit-transform: ;
-    -ms-transform: ;
-    -o-transform: ;
-    transform: rotate(360deg) scale(.8);
+    -webkit-transform: rotate(360deg) scale(.8);
+        -ms-transform: rotate(360deg) scale(.8);
+         -o-transform: rotate(360deg) scale(.8);
+            transform: rotate(360deg) scale(.8);
 }
 #contact .social-buttons li:nth-child(2)  {
-    background-color: #3EC2F3;
     margin-right: 15px;
+    background-color: #3EC2F3;
 }
 #contact .social-buttons li:nth-child(3)  {
     background-color: #E44C41;
 }
-
 #contact h5 {
-    color: #BFACE2;
-    font-size: 14px;
     margin-top: 0;
     margin-bottom: 15px;
+    color: #BFACE2;
+    font-size: 14px;
 }  
 #contact h5:last-child {
     margin-bottom: 0;
 }
 form {
-    font-family: 'Open Sans', sans-serif;
     margin-top: 70px;
 }
 #contact form input,
@@ -435,8 +452,8 @@ form {
     border: none;
 }
 #contact form input {
-    height: 44px;
     margin-bottom: 31px;
+    height: 44px;
 }
 #contact form  textarea {
     margin-top: 0;
@@ -445,15 +462,17 @@ form {
     resize: none;
 }
 #contact form button {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 22px;
-    font-weight: 300;
+    margin-bottom: 0;
     padding: 0;
     height: 50px;
     width: 170px;
     border-radius: 3px;
-    margin-bottom: 0;
+    font-size: 22px;
 }
+/*--------------------------------*/
+/*-------------------------------------------------------------------*/
+
+/* @MEDIA */
 @media (max-width: 1240px) {
     #myCarousel .carousel-caption h1 {
         font-size: 60px;
@@ -469,7 +488,7 @@ form {
 }
 @media (max-width: 900px) {
     #myCarousel .carousel-caption {
-    top: 5%;
+        top: 5%;
     }
     #myCarousel .carousel-caption h1 {
         font-size: 40px;
@@ -479,29 +498,29 @@ form {
         margin-bottom: 20px;
     }
     #myCarousel .carousel-caption p:last-child {
-    margin-top: 20px;
-}
+        margin-top: 20px;
+    }
 }
 @media (max-width: 768px) {
     .navbar .navbar-collapse {
-    border: none;
-}
-.navbar .navbar-collapse li {
-    background: #1a1818;
-    border-bottom: 1px solid rgba(128,128,128,.3);
-    text-align: center;   
-}
+        border: none;
+    }
+    .navbar .navbar-collapse li {
+        text-align: center;
+        border-bottom: 1px solid rgba(128,128,128,.3);
+        background: #1a1818;   
+    }
 }
 @media (max-width: 650px) {
-#myCarousel .carousel-caption h1 {
+    #myCarousel .carousel-caption h1 {
         font-size: 22px;
     }
     #myCarousel .carousel-caption p {
         font-size: 14px;
     }
     .btn-style {
-        border: 1px solid #fff;
         padding: 5px 10px;
+        border: 1px solid #fff;
         font-size: 14px;
         font-weight: 300;
     }
