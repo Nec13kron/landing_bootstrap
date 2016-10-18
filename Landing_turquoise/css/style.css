@@ -95,6 +95,9 @@ form,
 }
 #myCarousel {
     margin-top: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1280px;
 }
 #myCarousel .mask {
     position: absolute;
@@ -227,19 +230,19 @@ form,
             background-size: 100%;   
 }
 #team .row div:nth-child(2) div {
-    background: url("images/team-2.jpg") 50% 0% no-repeat ;
-    -webkit-background-size: 170%;
-            background-size: 170%;
+    background: url("images/team-2.jpg") 70% 0% no-repeat ;
+    -webkit-background-size: 120%;
+            background-size: 120%;
 }
 #team .row div:nth-child(3) div {
     background: url("images/team-3.jpg") 55% 10% no-repeat;
-    -webkit-background-size: 100%;
-            background-size: 200%;
+    -webkit-background-size: 120%;
+            background-size: 120%;
 }
 #team .row div:nth-child(4) div {
     background: url("images/team-4.jpg") no-repeat 50% 0%;
     -webkit-background-size: 100%;
-            background-size: 150%;
+            background-size: 100%;
 }
 #team {
     color: #4E525D;
@@ -331,6 +334,11 @@ form,
 /*--------------------------------*/
 
 /* REVIEWS */
+#myCarousel-2 {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1280px;
+}
 #myCarousel-2 .carousel-inner .item {
     height: auto;
 }
@@ -351,7 +359,6 @@ form,
     color: #4E525D;
     font-size: 19px;
     text-shadow: none;
-   
 }
 #myCarousel-2 h4 {
     margin-bottom: 100px;
